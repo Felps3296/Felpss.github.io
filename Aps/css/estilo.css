@@ -31,6 +31,11 @@ header label:hover{
     background-color: #ff5900;
 }
 
+.menu{
+    font-family: arial;
+    letter-spacing: 0.2em;
+}
+	    
 .menu ul{
     list-style: none;
     margin: 0;
