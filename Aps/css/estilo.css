@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url("../imagens/kva-fundo-b1.jpg");
+    background-size: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header{
+    background-color: #2f2f2f;
+    font-weight: 600;
+}
+header label{
+    color: #efefef;
+    font-size: 30px;
+    display: block;
+    padding: 5px 10px;
+    width: 20px;
+    border-right: 1px solid #efefef;
+    display: none;
+}
+
+header label:hover{
+    background-color: #ff5900;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: all .5s;
+}
+
+.menu li a{
+    color: #efefef;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    border-right: 1px solid #efefef;
+}
+
+.menu li a:hover{
+    background-color: #ff5900;
+}
+
+/* Rodapé */
+
+.rodape {
+	font-family: arial;
+    width: 96.8%; float: left; background-color: #1C1C1C; padding: 20px 20px;
+}
+
+.rodape li{
+	list-style: none;
+    color: floralwhite;
+}
+
+.rodape p{
+	font-weight: 600;
+    color: white;
+}
+
+
+p{
+	font-family: arial;
+	font-size: 18px;
+	color: #4F4F4F;
+}
+.texto{
+	width: 960px;
+	margin: auto;
+}
+.corpo{
+	display: table;
+}
+.imagens{
+	display: table-cell;
+	float: left;
+}
+.texto1{
+	display: table-cell;
+	float: left;
+	width: 300px;
+	margin-left: -20px;
+}
+h2{
+	font-size: 30px;
+    font-family: arial;
+    color: #4F4F4F; 
+}
+h3{
+	font-size: 25px;
+	font-family: arial;
+	color: #4F4F4F;
+}
+.p{
+	width: 960px;
+	margin: auto;
+}
+.p1{
+	width: 960px;
+	margin: auto;
+}
+.p2{
+	width: 960px;
+	margin: auto;
+}
+.p3{
+	font-size: 17px;
+	color: #FF8C00;
+}
+
+.li1 li{
+	width: 960px;
+	margin: auto;
+	font-family: arial;
+	font-size: 18px;
+	color: #4F4F4F;
+}
+
+.im{
+   padding-left: 14%;
+}
+
+
+@media(max-width: 768px){
+	
+	header{
+	   width: 80%; float: left; background-color: #2f2f2f; padding: 20px 350px;
+    	   font-weight: 600;
+        }
+	
+    .rodape {
+	   font-family: arial;
+        width: 80%; float: left; background-color: #1C1C1C; padding: 20px 350px;
+    }
+	
+    body{
+    	background: none;
+}
+	
+}
+
+
+
